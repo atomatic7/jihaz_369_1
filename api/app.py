@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify, render_template
-from chat import add_message, get_messages  # Import functions from chat.py
 
 app = Flask(__name__)
 
