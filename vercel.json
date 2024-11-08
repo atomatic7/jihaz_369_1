@@ -3,7 +3,7 @@
     {
       "src": "api/app.py",
       "use": "@vercel/python",
-      "config": { "includeFiles": ["api/chat.py", "api/utils.py"] }
+      "config": { "includeFiles": ["api/chat.py", "api/utils.py", "api/templates/index.html"] }
     }
   ],
   "routes": [
