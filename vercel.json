@@ -2,7 +2,8 @@
   "builds": [
     {
       "src": "api/app.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": { "includeFiles": ["api/chat.py", "api/utils.py"] }
     }
   ],
   "routes": [
