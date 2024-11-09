@@ -77,19 +77,23 @@ Authenticate your Vercel account in the terminal:
 
     ```bash
     vercel login
+    
+3. **Create vercel.json File**
 
-3. **Deploy to Vercel**
+In the root of your project, create a file named vercel.json. This file helps configure how Vercel handles your Flask application. Here's a basic configuration for Flask:
+
+4. **Deploy to Vercel**
 
 From the project directory, run:
 
     ```bash
    vercel
 
-3. **Finalize Deployment**
+5. **Finalize Deployment**
 
 Once the deployment is complete, Vercel will provide a unique URL for your application (e.g., https://jihaz-369.vercel.app). You can access your application there.
 
-3. **Subsequent Deployments**
+6. **Subsequent Deployments**
 
 After making changes to your app, redeploy it using:
 
