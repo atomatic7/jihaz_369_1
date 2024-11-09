@@ -87,7 +87,7 @@ In the root of your project, create a file named vercel.json. This file helps co
 From the project directory, run:
 
     ```bash
-   vercel
+    vercel
 
 5. **Finalize Deployment**
 
