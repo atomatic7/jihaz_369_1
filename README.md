@@ -54,14 +54,14 @@ Create and activate a virtual environment:
 Install the necessary dependencies from requirements.txt:
 
     ```bash
-   pip install -r requirements.txt
+    pip install -r requirements.txt
 
 3. **Start Application**
 
 Start the Flask development server:
 
     ```bash
-   flask run
+    flask run
 
 ### Deployment on Vercel
 
