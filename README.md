@@ -40,3 +40,70 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/atomatic7/jihaz_369_1.git)
    cd flask-chat-app
+
+2. **Set Up Virtual Environment**
+
+Create and activate a virtual environment:
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+2. **Install Dependencies**
+
+Install the necessary dependencies from requirements.txt:
+
+    ```bash
+   pip install -r requirements.txt
+
+3. **Start Application**
+
+Start the Flask development server:
+
+    ```bash
+   flask run
+
+### Deployment on Vercel
+
+1. **Install Vercel CLI**
+
+ 
+   ```bash
+   npm install -g vercel
+
+2. **Log in to Vercel**
+
+Authenticate your Vercel account in the terminal:
+
+    ```bash
+    vercel login
+
+3. **Deploy to Vercel**
+
+From the project directory, run:
+
+    ```bash
+   vercel
+
+3. **Finalize Deployment**
+
+Once the deployment is complete, Vercel will provide a unique URL for your application (e.g., https://jihaz-369.vercel.app). You can access your application there.
+
+3. **Subsequent Deployments**
+
+After making changes to your app, redeploy it using:
+
+    ```bash
+    vercel --prod
+
+### Contributing
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -m 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a Pull Request.
+
+
+    
+
